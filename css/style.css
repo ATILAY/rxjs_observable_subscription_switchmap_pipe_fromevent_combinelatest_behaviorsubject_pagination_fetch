@@ -1,0 +1,60 @@
+.buttons {
+  margin: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+#txtinput {
+  min-width: 500px;
+  min-height: 40px;
+  border-color: lightblue;
+  border: solid 3px lightblue;
+  background-color: lightblue;
+}
+ 
+#div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 110%;
+  width: 100px;
+  border-radius: 25px;
+  height: 40px;
+  background: lightblue;
+  -webkit-transition: width 2s;
+  /* For Safari 3.1 to 6.0 */
+  transition: width 1.7s;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#movies {
+  width: auto;
+  min-height: 80vh;
+  background: transparent;
+  transition: 5s;
+}
+
+#movies img {
+  margin: 15px;
+  width: 300px;
+  height: 300px;
+  transition: 3s;
+}
+
+#movies:hover {
+  background: lightblue;
+}
+
+#movies:hover img {
+  scale: 1.4;
+}

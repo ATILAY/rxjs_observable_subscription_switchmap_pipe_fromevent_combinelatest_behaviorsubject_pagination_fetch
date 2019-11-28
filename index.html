@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body class="d-flex justify-content-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+    <div>
+    <h2 id="bidi">
+        Write down your favorite movie name, and move your mouse inside of  Lucky bar
+        
+    </h2>
+    </div>
+    
+    <div></div>
+    <br>
+    <div class="begin">
+    <input type="text" id="txtinput" placeholder="..Let's search!">
+    <div class="buttons">
+    <button type="button" class="btn btn-info" id="prev-button">Prev</button>
+    <button type="button" class="btn btn-info" id="next-button">Next</button>
+    </div>
+    <div id="div"><span class="center-text">Lucky Bar</span></div>
+    <div id="movies"></div>
+    </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+    <!--rx.js which has business logic is being imported below -->
+    <script src="scripts/rx.js"></script>
+    <!--<script src="./scripts/staticMethods.js"></script>-->
+</body>
+
+</html>
